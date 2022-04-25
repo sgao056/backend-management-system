@@ -1,0 +1,45 @@
+const Menu = [
+    {
+        name:'home',
+        path:'/home',
+        icon:'s-home',
+        label:'home',
+        url:'/home'
+    },
+    {
+        name:'user',
+        path:'/user',
+        icon:'user',
+        label:'user',
+        url:'/user'
+    },
+    {
+        name:'products',
+        path:'/products',
+        icon:'video-play',
+        label:'products',
+        url:'/products'
+    },
+    {
+        label:'Others',
+        icon:'location',
+        children:[
+            {
+                name:'page1',
+                path:'/page1',
+                icon:'setting',
+                label:'page1',
+                url:'/page1'
+            },
+            {
+                name:'page2',
+                path:'/page2',
+                icon:'setting',
+                label:'page2',
+                url:'/page2'
+            }
+        ]
+    }
+  ]
+
+  export default Menu
